@@ -1,0 +1,72 @@
+
+body#page-top{
+  background-image: url("../img/fundo.png") !important;
+ }
+ 
+.background-app {
+  background-image: url("../img/fundo.jpg") !important; /* troca o background */
+  background-repeat: repeat; 
+}
+
+.card {
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.3); /* troca a cor das disciplinas */
+}
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.esconde {
+  display: none;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+#target {
+  text-decoration: none;
+}
+
+.conteudo-body {
+  padding-top: 1rem;
+}
+
+.weekDays-selector input {
+  display: none!important;
+}
+
+.weekDays-selector input[type=checkbox] + label {
+  display: inline-block;
+  border-radius: 6px;
+  background: #dddddd;
+  height: 40px;
+  width: 40px;
+  margin-right: 3px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.weekDays-selector input[type=checkbox]:checked + label {
+  background: #2AD705;
+  color: #ffffff;
+}
+
+.card-header:first-child:hover {
+  background-color: rgba(0,0,0,.09);
+}
+
+.dadosCalendario {
+  margin-bottom: 10px;
+}
+
+.diaSemanaCalendario {
+  margin-bottom: 10px;
+}
+
+.teste:hover {
+  color: black !important;
+  background-color: #4286f4 !important;
+}
